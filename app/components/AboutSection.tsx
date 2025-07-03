@@ -31,7 +31,7 @@ export default function AboutSection() {
             </div>
 
             {/* Values */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               <div className="flex items-start space-x-3">
                 <div className="flex-shrink-0 w-6 h-6 bg-primary/20 rounded-full flex items-center justify-center mt-1">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>

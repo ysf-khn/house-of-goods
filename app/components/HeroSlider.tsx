@@ -74,12 +74,12 @@ export default function HeroSlider() {
             <div className="absolute inset-0 bg-black/20" />
 
             {/* Content */}
-            <div className="absolute inset-0 flex items-center justify-center text-center">
+            <div className="absolute inset-0 flex items-center justify-center text-center px-4">
               <div className="text-white animate-fade-in">
-                <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl font-semibold mb-4">
+                <h2 className="font-heading text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-semibold mb-4">
                   {slide.title}
                 </h2>
-                <p className="font-body text-lg md:text-xl font-light tracking-wide">
+                <p className="font-body text-base sm:text-lg md:text-xl font-light tracking-wide">
                   {slide.subtitle}
                 </p>
               </div>
