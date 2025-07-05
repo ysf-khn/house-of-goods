@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/app/components/Navbar";
+import PaddingWrapper from "@/app/components/PaddingWrapper";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-heading",
@@ -30,7 +32,8 @@ export default function RootLayout({
       <body
         className={`${playfairDisplay.variable} ${lato.variable} antialiased`}
       >
-        {children}
+        <Navbar />
+        <PaddingWrapper>{children}</PaddingWrapper>
       </body>
     </html>
   );
