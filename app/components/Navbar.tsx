@@ -58,7 +58,7 @@ export default function Navbar() {
       ],
     },
     { label: "CONTACT", href: "#" },
-    { label: "FAQ", href: "#" },
+    { label: "FAQ", href: "/faq" },
   ];
 
   return (
@@ -203,7 +203,7 @@ export default function Navbar() {
         </div>
         {/* Mobile menu dropdown */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-2 pb-2 border-t border-border/30 animate-fade-in bg-background/95 rounded-xl shadow-lg mx-2">
+          <div className="md:hidden mt-2 pb-2 border-t border-border/30 animate-fade-in rounded-xl mx-2">
             <ul className="flex flex-col space-y-2 text-center pt-2">
               {/* CATEGORIES Dropdown for mobile */}
               <li>
