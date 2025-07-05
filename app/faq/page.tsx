@@ -9,7 +9,7 @@ const faqs = [
   {
     question: "How can I contact customer support?",
     answer:
-      "You can reach us via our contact form or email us at info@houseofgoodsllc.com.",
+      "You can reach us via our contact form or email us at sales@houseofgoodsllc.com.",
   },
   {
     question: "Do you offer international shipping?",

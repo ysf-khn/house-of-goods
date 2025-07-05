@@ -19,7 +19,7 @@ export default function Home() {
             </h2>
             <div className="text-foreground/70">
               <p className="font-body text-sm md:text-base leading-relaxed">
-                Home of Goods is a curated home decor brand offering a
+                House of Goods LLC is a curated home decor brand offering a
                 distinctive selection of premium lifestyle products including
                 elegant artificial flowers and plants, designer lighting,
                 statement furniture, refined homewares and décor, marble

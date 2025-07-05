@@ -54,11 +54,11 @@ export default function Footer() {
             <h4 className="font-heading text-lg font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4 mb-6">
               <a
-                href="mailto:info@houseofgoodsllc.com"
+                href="mailto:sales@houseofgoodsllc.com"
                 className="text-background/80 hover:text-background transition-colors duration-200"
                 aria-label="Email"
               >
-                info@houseofgoodsllc.com
+                sales@houseofgoodsllc.com
               </a>
             </div>
           </div>
