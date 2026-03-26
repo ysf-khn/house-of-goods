@@ -69,17 +69,14 @@ export default function Footer() {
           <p className="font-body text-background/60 text-sm mb-4 md:mb-0">
             © 2025 House of Goods. All rights reserved.
           </p>
-          <p className="font-body text-background/60 text-sm">
-            Designed & Developed by{" "}
-            <a
-              href="https://moosebase.com"
-              target="_blank"
-              rel=""
-              className="text-background/80 hover:text-background transition-colors duration-200"
-            >
-              MooseBase
-            </a>
-          </p>
+          <a
+            href="https://moosebase.com"
+            target="_blank"
+            rel=""
+            className="font-body text-background/60 hover:text-background text-sm transition-colors duration-200"
+          >
+            Designed & Developed by MooseBase
+          </a>
         </div>
       </div>
     </footer>
